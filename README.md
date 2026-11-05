@@ -90,7 +90,8 @@ wine target/x86_64-pc-windows-gnu/release/postit.exe
 
 ## Performances
 
-- Binaire release : **environ 330 Ko** (`opt-level="z"`, LTO, strip, panic=abort).
+- Binaire release : **moins d'1 Mo**, icône comprise (`opt-level="z"`, LTO, strip,
+  panic=abort).
 - Un seul processus, aucune dépendance graphique lourde.
 - Aucun timer actif au repos ; le timer de sauvegarde n'existe que pendant
   l'édition.
