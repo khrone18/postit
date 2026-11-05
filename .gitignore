@@ -1,0 +1,11 @@
+/target
+**/*.exe
+**/*.pdb
+notes.json
+assets/*.png
+assets/icon.ico
+notes.json.tmp
+notes.corrupt.json
+.DS_Store
+.idea/
+.vscode/
